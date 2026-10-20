@@ -1,0 +1,33 @@
+# Learning Logs
+
+Daily interview preparation for Python backend and GenAI roles, started October 2026.
+All code here is written by hand, without AI autocomplete.
+
+## Structure
+
+```
+notes/    daily notes: concepts learned and mistakes to watch
+python/   Python fundamentals practice, one file per topic
+dsa/      LeetCode solutions, grouped by pattern, named by problem number
+```
+
+## DSA progress
+
+| # | Problem | Pattern | Approaches | Date |
+|---|---|---|---|---|
+| 1 | [Two Sum](dsa/arrays_hashing/0001_two_sum.py) | Hash map | Brute force O(n²), hash map O(n) | Oct 20 |
+| 217 | [Contains Duplicate](dsa/arrays_hashing/0217_contains_duplicate.py) | Hash set | Brute force O(n²), hash set O(n) | Oct 19 |
+
+## Python topics
+
+| Topic | File |
+|---|---|
+| Counting with dictionaries | [dict_counting.py](python/dict_counting.py) |
+
+## Running
+
+Python 3.9+. Each file runs its own examples:
+
+```bash
+python3 dsa/arrays_hashing/0001_two_sum.py
+```
