@@ -17,11 +17,13 @@ dsa/      LeetCode solutions, grouped by pattern, named by problem number
 |---|---|---|---|---|
 | 1 | [Two Sum](dsa/arrays_hashing/0001_two_sum.py) | Hash map | Brute force O(n²), hash map O(n) | Oct 20 |
 | 217 | [Contains Duplicate](dsa/arrays_hashing/0217_contains_duplicate.py) | Hash set | Brute force O(n²), hash set O(n) | Oct 19 |
+| 242 | [Valid Anagram](dsa/arrays_hashing/0242_valid_anagram.py) | Hash map | Count both strings, compare dicts O(n) | Oct 21 |
 
 ## Python topics
 
 | Topic | File |
 |---|---|
+| References, mutability, strings, dicts | [references_and_dicts.py](python/references_and_dicts.py) |
 | Counting with dictionaries | [dict_counting.py](python/dict_counting.py) |
 
 ## Running
